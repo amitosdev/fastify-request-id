@@ -1,0 +1,29 @@
+{
+  "name": "fastify-request-id",
+  "version": "0.0.1",
+  "description": "An alternative request id for fastify",
+  "main": "request.js",
+  "scripts": {
+    "test": "tap"
+  },
+  "author": "Amit Tal",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/amitosdev/fastify-request-id#readme",
+  "keywords": [
+    "fastify",
+    "headers",
+    "request"
+  ],
+  "dependencies": {
+    "fastify-plugin": "^3.0.0",
+    "lodash.isfunction": "^3.0.9",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-prettierx": "^0.18.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "fastify": "^3.24.1",
+    "tap": "^15.1.5"
+  }
+}
