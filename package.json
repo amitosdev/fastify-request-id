@@ -2,7 +2,7 @@
   "name": "fastify-request-id",
   "version": "1.0.0",
   "description": "An alternative request id for fastify",
-  "main": "request.js",
+  "main": "requestId.js",
   "scripts": {
     "test": "tap"
   },
